@@ -449,7 +449,7 @@ section { padding: 7rem 6%; position: relative; }
 #projects { background: var(--dark-2); }
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   margin-top: 4rem;
 }
@@ -519,6 +519,19 @@ section { padding: 7rem 6%; position: relative; }
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.05em;
+}
+.project-featured {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--mint-bright);
+  background: rgba(95,255,192,0.08);
+  border: 1px solid rgba(95,255,192,0.2);
+  padding: 2px 8px;
+  border-radius: 2px;
+  margin-top: 0.3rem;
+  display: inline-block;
 }
 
 /* ── EXPERIENCE ── */
@@ -606,7 +619,6 @@ section { padding: 7rem 6%; position: relative; }
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  font-size: 1rem;
   color: var(--muted);
   font-weight: 700;
   font-family: 'Clash Display', sans-serif;
@@ -682,7 +694,7 @@ footer span { color: var(--mint); font-weight: 700; }
   <div class="hero-content">
     <div class="hero-tag">
       <div class="hero-tag-dot"></div>
-      Available for Internship
+      Available for Remote Internship
     </div>
     <h1 class="hero-name">
       <span class="mint">Aniqa</span><br>
@@ -697,11 +709,11 @@ footer span { color: var(--mint); font-weight: 700; }
   </div>
   <div class="hero-stats">
     <div class="stat">
-      <div class="stat-num">3+</div>
+      <div class="stat-num">4+</div>
       <div class="stat-label">Projects Built</div>
     </div>
     <div class="stat">
-      <div class="stat-num">5+</div>
+      <div class="stat-num">10+</div>
       <div class="stat-label">Technologies</div>
     </div>
     <div class="stat">
@@ -719,13 +731,13 @@ footer span { color: var(--mint); font-weight: 700; }
     <div class="about-text reveal">
       <p>I'm a <span>6th semester BS IT student</span> at Government College University Faisalabad with a passion for building things that live on the internet.</p>
       <p>I specialize in <span>frontend development</span> and love integrating AI into web apps to make them smarter and more useful. My projects go beyond tutorials — they're real, deployed, and working.</p>
-      <p>Outside coding, I have a background in <span>calligraphy and design</span>, which gives me a sharp eye for aesthetics and detail — something I bring to every project I build.</p>
+      <p>I have a background in <span>design and visual communication</span>, which gives me a sharp eye for aesthetics and detail — something I bring to every interface I build.</p>
       <div class="about-tags">
         <span class="about-tag">Frontend Dev</span>
         <span class="about-tag">AI Integration</span>
+        <span class="about-tag">React</span>
         <span class="about-tag">REST APIs</span>
-        <span class="about-tag">Full Stack</span>
-        <span class="about-tag">Canva Design</span>
+        <span class="about-tag">Firebase</span>
         <span class="about-tag">Open to Remote</span>
       </div>
     </div>
@@ -762,6 +774,7 @@ footer span { color: var(--mint); font-weight: 700; }
       <div class="skill-icon">🎨</div>
       <div class="skill-cat">Frontend</div>
       <div class="skill-pills">
+        <span class="skill-pill">React.js</span>
         <span class="skill-pill">HTML5</span>
         <span class="skill-pill">CSS3</span>
         <span class="skill-pill">JavaScript</span>
@@ -771,13 +784,14 @@ footer span { color: var(--mint); font-weight: 700; }
     </div>
     <div class="skill-card reveal">
       <div class="skill-icon">⚙️</div>
-      <div class="skill-cat">Backend</div>
+      <div class="skill-cat">Backend & DB</div>
       <div class="skill-pills">
         <span class="skill-pill">Node.js</span>
         <span class="skill-pill">Express.js</span>
+        <span class="skill-pill">Firebase</span>
+        <span class="skill-pill">Firestore</span>
+        <span class="skill-pill">SQL</span>
         <span class="skill-pill">REST API</span>
-        <span class="skill-pill">dotenv</span>
-        <span class="skill-pill">CORS</span>
       </div>
     </div>
     <div class="skill-card reveal">
@@ -785,19 +799,20 @@ footer span { color: var(--mint); font-weight: 700; }
       <div class="skill-cat">AI Integration</div>
       <div class="skill-pills">
         <span class="skill-pill">Gemini API</span>
+        <span class="skill-pill">GitHub API</span>
         <span class="skill-pill">Prompt Engineering</span>
         <span class="skill-pill">Multimodal AI</span>
-        <span class="skill-pill">API Security</span>
       </div>
     </div>
     <div class="skill-card reveal">
       <div class="skill-icon">🗄️</div>
-      <div class="skill-cat">Database & Languages</div>
+      <div class="skill-cat">Languages</div>
       <div class="skill-pills">
-        <span class="skill-pill">SQL</span>
+        <span class="skill-pill">JavaScript</span>
         <span class="skill-pill">C++</span>
+        <span class="skill-pill">Python (Basic)</span>
+        <span class="skill-pill">SQL</span>
         <span class="skill-pill">OOP</span>
-        <span class="skill-pill">DSA</span>
       </div>
     </div>
     <div class="skill-card reveal">
@@ -807,7 +822,8 @@ footer span { color: var(--mint); font-weight: 700; }
         <span class="skill-pill">Git</span>
         <span class="skill-pill">GitHub</span>
         <span class="skill-pill">Netlify</span>
-        <span class="skill-pill">Railway</span>
+        <span class="skill-pill">Render</span>
+        <span class="skill-pill">Chart.js</span>
         <span class="skill-pill">VS Code</span>
       </div>
     </div>
@@ -817,7 +833,7 @@ footer span { color: var(--mint); font-weight: 700; }
       <div class="skill-pills">
         <span class="skill-pill">Canva</span>
         <span class="skill-pill">Figma (Basic)</span>
-        <span class="skill-pill">Calligraphy</span>
+        <span class="skill-pill">UI/UX Principles</span>
         <span class="skill-pill">Fiverr</span>
       </div>
     </div>
@@ -829,29 +845,74 @@ footer span { color: var(--mint); font-weight: 700; }
   <div class="section-label">What I've Built</div>
   <h2 class="section-title">My <span>Projects</span></h2>
   <div class="projects-grid">
+
     <div class="project-card reveal">
       <div class="project-header">
-        <div class="project-num">01</div>
+        <div>
+          <div class="project-num">01</div>
+          <div class="project-featured">Featured</div>
+        </div>
         <div class="project-links">
-          <a href="https://captionai-production-09fe.up.railway.app" target="_blank" class="project-link" title="Live">↗</a>
+          <a href="https://applysmart.netlify.app" target="_blank" class="project-link" title="Live">↗</a>
+          <a href="https://github.com/aniqafatimaa/applysmart" target="_blank" class="project-link" title="GitHub">⌥</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-name">ApplySmart</div>
+        <div class="project-desc">AI-powered job application tracker built to solve my own problem of losing track of internship applications. Gemini 2.5 Flash gives real-time suggestions to improve each application. Auth via Firebase.</div>
+        <div class="project-stack">
+          <span class="stack-tag">React</span>
+          <span class="stack-tag">Firebase</span>
+          <span class="stack-tag">Gemini API</span>
+          <span class="stack-tag">Firestore</span>
+          <span class="stack-tag">Netlify</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-num">02</div>
+        <div class="project-links">
+          <a href="https://github-wrapped-aniqa.netlify.app" target="_blank" class="project-link" title="Live">↗</a>
+          <a href="https://github.com/aniqafatimaa/github-wrapped" target="_blank" class="project-link" title="GitHub">⌥</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-name">GitHub Wrapped</div>
+        <div class="project-desc">Spotify Wrapped but for your GitHub. Visualizes coding activity, top languages, commit streaks, and contribution stats in a shareable card format using the GitHub API.</div>
+        <div class="project-stack">
+          <span class="stack-tag">React</span>
+          <span class="stack-tag">Chart.js</span>
+          <span class="stack-tag">GitHub API</span>
+          <span class="stack-tag">Netlify</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-num">03</div>
+        <div class="project-links">
+          <a href="https://captionai-fhts.onrender.com" target="_blank" class="project-link" title="Live">↗</a>
           <a href="https://github.com/aniqafatimaa/captionai" target="_blank" class="project-link" title="GitHub">⌥</a>
         </div>
       </div>
       <div class="project-body">
         <div class="project-name">CaptionAI</div>
-        <div class="project-desc">AI-powered social media caption generator. Upload a photo, choose your platform and tone — get 5 captions with hashtags instantly. Built with a secure Node.js backend so the API key is never exposed.</div>
+        <div class="project-desc">AI-powered caption generator with image upload and Instagram carousel support. Upload a photo, choose platform and tone — get smart captions instantly via Gemini API. Secure Node.js backend.</div>
         <div class="project-stack">
           <span class="stack-tag">Node.js</span>
           <span class="stack-tag">Express</span>
           <span class="stack-tag">Gemini API</span>
-          <span class="stack-tag">REST API</span>
-          <span class="stack-tag">Railway</span>
+          <span class="stack-tag">Render</span>
         </div>
       </div>
     </div>
+
     <div class="project-card reveal">
       <div class="project-header">
-        <div class="project-num">02</div>
+        <div class="project-num">04</div>
         <div class="project-links">
           <a href="https://taskflow-aniqa.netlify.app" target="_blank" class="project-link" title="Live">↗</a>
           <a href="https://github.com/aniqafatimaa/taskflow" target="_blank" class="project-link" title="GitHub">⌥</a>
@@ -859,7 +920,7 @@ footer span { color: var(--mint); font-weight: 700; }
       </div>
       <div class="project-body">
         <div class="project-name">TaskFlow</div>
-        <div class="project-desc">A full-featured task management web app with clean UI, task creation, completion tracking, and local storage persistence. Built entirely with vanilla JavaScript — no frameworks.</div>
+        <div class="project-desc">Clean, minimal task management app built with vanilla JavaScript. Local storage persistence, task completion tracking, and a distraction-free interface — no frameworks needed.</div>
         <div class="project-stack">
           <span class="stack-tag">HTML</span>
           <span class="stack-tag">CSS</span>
@@ -868,20 +929,7 @@ footer span { color: var(--mint); font-weight: 700; }
         </div>
       </div>
     </div>
-    <div class="project-card reveal" style="border-style: dashed; opacity: 0.7;">
-      <div class="project-header">
-        <div class="project-num" style="color: var(--muted);">03</div>
-      </div>
-      <div class="project-body" style="align-items: center; justify-content: center; text-align: center; padding-top: 1rem;">
-        <div style="font-size: 2rem; margin-bottom: 1rem;">🚧</div>
-        <div class="project-name" style="color: var(--muted);">Coming Soon</div>
-        <div class="project-desc">Something new is in the works. Currently learning React to build my next project.</div>
-        <div class="project-stack" style="justify-content: center;">
-          <span class="stack-tag">React</span>
-          <span class="stack-tag">In Progress</span>
-        </div>
-      </div>
-    </div>
+
   </div>
 </section>
 
@@ -890,30 +938,34 @@ footer span { color: var(--mint); font-weight: 700; }
   <div class="section-label">Experience</div>
   <h2 class="section-title">What I've <span>Done</span></h2>
   <div class="exp-list">
+
     <div class="exp-item reveal">
-      <div class="exp-year">2024 — Present</div>
+      <div class="exp-year">June 2026</div>
+      <div>
+        <div class="exp-role">Technology Job Simulation</div>
+        <div class="exp-company">Deloitte Australia · Forage</div>
+        <div class="exp-desc">Completed a Python-based telemetry coding task and wrote a software development proposal as part of a simulated engineering project at Deloitte Australia.</div>
+      </div>
+    </div>
+
+    <div class="exp-item reveal">
+      <div class="exp-year">2025 — Present</div>
       <div>
         <div class="exp-role">Freelance Web Developer</div>
         <div class="exp-company">Fiverr · Remote</div>
-        <div class="exp-desc">Offering website maintenance and development services. Managing client projects including UI fixes, content updates, and performance improvements.</div>
+        <div class="exp-desc">Offering website maintenance and frontend development services. Managing client projects including UI fixes, content updates, and performance improvements.</div>
       </div>
     </div>
-    <div class="exp-item reveal">
-      <div class="exp-year">2023 — Present</div>
-      <div>
-        <div class="exp-role">Calligraphy Business Owner</div>
-        <div class="exp-company">Instagram · Daraz · Etsy</div>
-        <div class="exp-desc">Run an independent calligraphy business across multiple platforms. Handled product design, customer communication, order fulfilment, and digital marketing entirely independently.</div>
-      </div>
-    </div>
+
     <div class="exp-item reveal">
       <div class="exp-year">2023 — Present</div>
       <div>
         <div class="exp-role">BS Information Technology</div>
         <div class="exp-company">Government College University Faisalabad</div>
-        <div class="exp-desc">Studying core CS fundamentals including AI, Cybersecurity, Data Mining, Networking, OOP, DSA, and Database Management. Applying knowledge through real-world projects.</div>
+        <div class="exp-desc">Studying core CS fundamentals including AI, Cybersecurity, Data Mining, Networking, OOP, DSA, and Database Management. Applying knowledge through real-world deployed projects.</div>
       </div>
     </div>
+
   </div>
 </section>
 
@@ -922,7 +974,7 @@ footer span { color: var(--mint); font-weight: 700; }
   <div class="contact-inner">
     <div class="section-label" style="justify-content:center">Get In Touch</div>
     <div class="contact-big reveal">Let's <span>Work</span><br>Together</div>
-    <p class="contact-sub reveal">I'm actively looking for frontend or full-stack internship opportunities — remote or in Faisalabad. If you think I'd be a good fit, I'd love to hear from you.</p>
+    <p class="contact-sub reveal">I'm actively looking for remote frontend internship opportunities worldwide. If you think I'd be a good fit, I'd love to hear from you.</p>
     <a href="mailto:aniqafatima311@gmail.com" class="contact-email reveal">
       ✉ aniqafatima311@gmail.com
     </a>
@@ -937,7 +989,7 @@ footer span { color: var(--mint); font-weight: 700; }
 <!-- FOOTER -->
 <footer>
   <span>Aniqa Fatima</span>
-  <span>Built with HTML, CSS & JS · 2025</span>
+  <span>Built with HTML, CSS & JS · 2026</span>
   <span>Faisalabad, Pakistan 🇵🇰</span>
 </footer>
 
